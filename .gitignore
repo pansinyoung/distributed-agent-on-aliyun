@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+*.log
+*.tsbuildinfo
+
+# 凭据：绝不入库
+.env
+.env.*
+!.env.example
+
+.DS_Store
+.aliyun/
+.s/
